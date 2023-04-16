@@ -1,0 +1,9 @@
+.shoping-list{
+    width: 100%;
+    margin-top: 100px;
+}
+.produit-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

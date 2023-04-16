@@ -1,0 +1,21 @@
+.caroussel{
+    height: 300px;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw +  50%);
+    background-color: rgba(18, 19, 20, 0.904);
+}   
+.slide{
+    text-align: center;
+    margin-top: 40px;
+}
+.text1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.text2{
+    color: gray;
+    font-size: 19px;
+    margin-top: -35px;
+}

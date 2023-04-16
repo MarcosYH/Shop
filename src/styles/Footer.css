@@ -1,0 +1,12 @@
+.footer{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-color: rgba(18, 19, 20, 0.904);
+    width: 100vw;
+    left: calc(-50vw +  50%);
+    height: 120px;
+
+}
