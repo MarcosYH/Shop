@@ -1,19 +1,19 @@
 import Fancy from '../assets/Fancy.jpg'
-import Fancy1 from '../assets/Fancy Product1.jpeg'
+import Fancy1 from '../assets/Fancy Product1.jpg'
 import Popular from '../assets/Popular Item.jpg'
 import Popular1 from '../assets/Popular Item1.jpg'
 import Sale from '../assets/Special Item.jpg'
-import Sale1 from '../assets/Sale Item1.jpeg'
+import Sale1 from '../assets/Sale Item1.jpg'
 import Special from '../assets/Special Item.jpg'
 import Special1 from '../assets/Special Item1.jpg'
-
+import jackets from '../assets/Jackets.jpg'
 
 
 export const ListeProduit=[
 
     {   id:1,
         sale:false,
-        name: 'Fancy Product',
+        name: 'Bomber jacket',
         price: 80.00,
         reduction: 0,
         star:0,
@@ -22,7 +22,7 @@ export const ListeProduit=[
     {
         id:2,
         sale:true,
-        name: 'Special Item',
+        name: 'Denim jacket',
         price: 20.00,
         reduction: 18,
         star:5,
@@ -31,7 +31,7 @@ export const ListeProduit=[
     {
         id:3,
         sale:true,
-        name: 'Sale Item',
+        name: 'Leather jacket',
         price: 50.00,
         reduction: 25,
         star:0,
@@ -40,7 +40,7 @@ export const ListeProduit=[
     {
         id:4,
         sale:false,
-        name: 'Popular Item',
+        name: 'Puffer jacket',
         price: 40.00,
         reduction: 0,
         star:5,
@@ -49,7 +49,7 @@ export const ListeProduit=[
     {
         id:5,
         sale: true,
-        name: 'Sale Item',
+        name: 'Military jacket',
         price: 50.00,
         reduction: 25.00,
         star:0,
@@ -57,7 +57,7 @@ export const ListeProduit=[
     },
     {   id:6,
         sale:false,
-        name: 'Fancy Product',
+        name: 'Corduroy jacket',
         price: 280.00,
         reduction: 0,
         star:0,
@@ -66,7 +66,7 @@ export const ListeProduit=[
     {
         id:7,
         sale: true,
-        name: 'Special Item',
+        name: 'Wool jacket',
         price: 20.00,
         reduction: 18.00,
         star:5,
@@ -75,11 +75,20 @@ export const ListeProduit=[
     {
         id:8,
         sale: false,
-        name: 'Popular Item',
+        name: 'Suede jacket',
         price: 40.00,
         reduction: 0,
         star:4,
         cover: Special1
+    },
+    {
+        id:9,
+        sale: true,
+        name: 'Suit jacket',
+        price: 50.00,
+        reduction: 0,
+        star:4,
+        cover: jackets
     },
     
 

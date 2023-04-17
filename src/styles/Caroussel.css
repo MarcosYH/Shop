@@ -3,19 +3,30 @@
     width: 100vw;
     position: relative;
     left: calc(-50vw +  50%);
-    background-color: rgba(18, 19, 20, 0.904);
+    background-color: rgba(148, 149, 156, 0.9);
 }   
 .slide{
-    text-align: center;
+    text-align: left;
+    left: 30px;
     margin-top: 40px;
 }
 .text1{
-    color: white;
+    color: black;
     font-size: 55px;
     font-weight: bold;
+    text-align: left;
+    left: 30px;
+
 }
 .text2{
-    color: gray;
+    color: black;
     font-size: 19px;
     margin-top: -35px;
+}
+.mannequin{
+    position: relative;
+    width: 442px;
+    height: 562px;
+    left: 1084px;
+    top: -200px;
 }

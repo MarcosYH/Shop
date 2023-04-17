@@ -35,3 +35,36 @@ button:hover{
     padding-right: 7px;
 
 }
+.home{
+    display: flex;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+
+}
+.home:hover{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+.shop{
+    display: flex;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.shop:hover{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+.about{
+    text-decoration: none;
+    color: black;
+}
+.about:hover{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}

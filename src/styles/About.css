@@ -1,0 +1,41 @@
+.About{
+    width: 68%;
+    margin: auto;
+    overflow-x: visible;
+}
+.div{
+    height: 461px;
+    margin: auto;
+}
+.paragraphe{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 500px;
+    margin-top: -500px;
+}
+.mannequin3{
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 26px;
+
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left: 1000px;
+    top: auto;
+   border-radius:5px;
+
+    /* Black */
+
+    background: #367dc5;
+}
