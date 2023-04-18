@@ -2,6 +2,7 @@ import React from 'react'
 import ProductItem from './ProductItem'
 import '../styles/ShopingList.css'
 import { ListeProduitsHome } from '../datas/ListeProduisHome'
+import '../styles/ShoppingListHome.css'
 function ShopingListHome({compteur,setCompteur}) {
     return (
         <div className='shoping-list'>

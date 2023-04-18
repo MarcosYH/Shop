@@ -24,7 +24,9 @@ function ShopingList({compteur,setCompteur}) {
                     ))
                 }
             </ul>
+
         </div>
+
     )
 }
 

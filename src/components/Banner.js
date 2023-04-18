@@ -7,7 +7,7 @@ function Banner({compteur,setCompteur}) {
   return (
     <nav>
       <div className='left'>
-        <h2>Flemme - For Lyne</h2>
+        <h2>SHOP - For Lyne</h2>
         <ul>
             <Link to="/" className="home">Home</Link>
             <Link to="/Shop" className="shop">Shop</Link>
